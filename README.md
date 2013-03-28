@@ -16,7 +16,7 @@ Sets up a simple install of `monit`. With the default `monitrc` it will monitor:
 
 With librarian-puppet, add the following to your Puppetfile:
 
-	mod 'postfix',
+	mod 'monit',
 		:git => 'git://github.com/davidwinter/puppet-monit.git'
 
 Then run `librarian-puppet install`.
